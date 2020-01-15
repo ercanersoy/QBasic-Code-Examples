@@ -8,4 +8,5 @@ These files licensed by MIT License.
 
 ## Examples
 
+  * [Calculator](CALC)
   * [Randomize dots with color](RNDDOTS)
