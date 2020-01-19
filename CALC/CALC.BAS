@@ -2,11 +2,11 @@
 ' Copyright (C) 2020 Ercan Ersoy
 ' This code licensed by MIT License.
 
-DIM NUMBER1 AS DOUBLE
-DIM NUMBER2 AS DOUBLE
-DIM OPERATOR AS STRING
-DIM RESULT AS DOUBLE
-DIM SELECTION AS STRING
+DIM number1 AS DOUBLE
+DIM number2 AS DOUBLE
+DIM operator AS STRING
+DIM result AS DOUBLE
+DIM selection AS STRING
 
 CLS
 
@@ -15,24 +15,24 @@ PRINT "Copyright (C) 2020 Ercan Ersoy"
 
 DO
    DO
-      INPUT "Number 1: ", NUMBER1
-      INPUT "Number 2: ", NUMBER2
-      INPUT "Operator: ", OPERATOR
+      INPUT "Number 1: ", number1
+      INPUT "Number 2: ", number2
+      INPUT "Operator: ", operator
 
-      IF OPERATOR = "+" THEN
-         RESULT = NUMBER1 + NUMBER2
-
-         EXIT DO
-      ELSEIF OPERATOR = "-" THEN
-         RESULT = NUMBER1 - NUMBER2
+      IF operator = "+" THEN
+         result = number1 + number2
 
          EXIT DO
-      ELSEIF OPERATOR = "*" THEN
-         RESULT = NUMBER1 * NUMBER2
+      ELSEIF operator = "-" THEN
+         result = number1 - number2
 
          EXIT DO
-      ELSEIF OPERATOR = "/" THEN
-         RESULT = NUMBER1 / NUMBER2
+      ELSEIF operator = "*" THEN
+         result = number1 * number2
+
+         EXIT DO
+      ELSEIF operator = "/" THEN
+         result = number1 / number2
 
          EXIT DO
       ELSE
@@ -41,23 +41,20 @@ DO
       END IF
    LOOP
 
-   PRINT STR$(NUMBER1) + " " + OPERATOR + STR$(NUMBER2) + " =" + STR$(RESULT)
+   PRINT STR$(number1) + " " + operator + STR$(number2) + " =" + STR$(result)
 
 
    PRINT
 
-   ' Flush keyboard buffer
-   TEMPORARY% = INP(96)
-
    DO
       PRINT "Calculate again? (Y/N)"
-      SELECTION = INPUT$(1)
+      selection = UCASE$(INPUT$(1))
 
-      IF SELECTION = "Y" OR SELECTION = "y" THEN
+      IF selection = "Y" THEN
          CLS
 
          EXIT DO
-      ELSEIF SELECTION = "N" OR SELECTION = "n" THEN
+      ELSEIF selection = "N" THEN
          CLS
 
          END
@@ -67,4 +64,3 @@ DO
       END IF
    LOOP
 LOOP
-
