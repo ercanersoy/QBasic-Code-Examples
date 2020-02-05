@@ -9,4 +9,5 @@ These files licensed by MIT License.
 ## Examples
 
   * [Calculator](CALC)
+  * [Number game](NUMGAME)
   * [Randomize dots with color](RNDDOTS)
