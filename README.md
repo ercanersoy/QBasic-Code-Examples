@@ -1,8 +1,8 @@
-# QuickBASIC Code Examples
+# QBasic Code Examples
 
-QuickBASIC 4.5 Code Examples
+QBasic Code Examples
 
-Copyright (C) 2020 [Ercan Ersoy](http://ercanersoy.net)
+Copyright (C) 2020-2021 [Ercan Ersoy](http://ercanersoy.net)
 
 These files licensed by MIT License.
 

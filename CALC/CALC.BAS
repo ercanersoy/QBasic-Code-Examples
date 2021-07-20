@@ -1,5 +1,5 @@
 ' CALC.BAS - Calculator
-' Copyright (C) 2020 Ercan Ersoy
+' Copyright (C) 2020-2021 Ercan Ersoy
 ' This code licensed by MIT License.
 
 DIM number1 AS DOUBLE
@@ -11,7 +11,7 @@ DIM selection AS STRING
 CLS
 
 PRINT "Calculator"
-PRINT "Copyright (C) 2020 Ercan Ersoy"
+PRINT "Copyright (C) 2020-2021 Ercan Ersoy"
 
 DO
    DO

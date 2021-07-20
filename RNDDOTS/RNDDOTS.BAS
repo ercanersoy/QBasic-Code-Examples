@@ -1,5 +1,5 @@
 ' RNDDOTS.BAS - Randomize dots with color
-' Copyright (C) 2020 Ercan Ersoy
+' Copyright (C) 2020-2021 Ercan Ersoy
 ' This code licensed by MIT License.
 
 SCREEN 13

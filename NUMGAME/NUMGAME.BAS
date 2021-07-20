@@ -1,5 +1,5 @@
 ' NUMGAME.BAS - Number game
-' Copyright (C) 2020 Ercan Ersoy
+' Copyright (C) 2020-2021 Ercan Ersoy
 ' This code licensed by MIT License.
 
 DIM count AS INTEGER
@@ -13,7 +13,7 @@ RANDOMIZE TIMER
 CLS
 
 PRINT "Number Game"
-PRINT "Copyright (C) 2020 Ercan Ersoy"
+PRINT "Copyright (C) 2020-2021 Ercan Ersoy"
 
 inputnumber:
 
