@@ -9,6 +9,6 @@ These files licensed by MIT License.
 ## Examples
 
   * [Calculator](CALC)
-  * [Message](MESSAGE)
+  * [Display a Message](MESSAGE)
   * [Number game](NUMGAME)
   * [Randomize dots with color](RNDDOTS)
