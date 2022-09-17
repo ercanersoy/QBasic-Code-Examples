@@ -10,5 +10,5 @@ These files licensed by MIT License.
 
   * [Calculator](CALC)
   * [Display a Message](MESSAGE)
-  * [Number game](NUMGAME)
-  * [Randomize dots with color](RNDDOTS)
+  * [Number Game](NUMGAME)
+  * [Randomize Dots with Color](RNDDOTS)
